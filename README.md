@@ -10,7 +10,7 @@ The goal of this task is to create a REST API for storing and managing contacts.
 - Date of birth.
 - Additional data (optional).
 
-The API should be able to perform the following actions:
+<b>The API should be able to perform the following actions:</b>
 - Create a new contact.
 - Get a list of all contacts.
 - Get one contact by ID.
