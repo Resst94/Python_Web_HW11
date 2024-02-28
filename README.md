@@ -1,4 +1,4 @@
-# Task.
+# Task
 
 The goal of this task is to create a REST API for storing and managing contacts. The API should be built using the FastAPI infrastructure and use SQLAlchemy to manage the database.
 
