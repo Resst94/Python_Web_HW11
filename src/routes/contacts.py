@@ -11,7 +11,7 @@ router = APIRouter(prefix="/contacts", tags=["contacts"])
 
 
 @router.get("/", response_model=List[ContactResponse])
-async def get_users(db: Session = Depends(get_db)):
+async def get_contacts(db: Session = Depends(get_db)):
     contacts = await repository_contacts.get_contacts(db)
     return contacts
 
